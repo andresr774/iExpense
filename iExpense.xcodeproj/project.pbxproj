@@ -11,6 +11,15 @@
 		8181906227CFCCA100B8FEB8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8181906127CFCCA100B8FEB8 /* ContentView.swift */; };
 		8181906427CFCCA100B8FEB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8181906327CFCCA100B8FEB8 /* Assets.xcassets */; };
 		8181906727CFCCA100B8FEB8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8181906627CFCCA100B8FEB8 /* Preview Assets.xcassets */; };
+		81DAFFC127CFCD7A00C7943A /* StateExplanation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81DAFFC027CFCD7A00C7943A /* StateExplanation.swift */; };
+		81DAFFC327CFE03400C7943A /* OnDeleteExplanation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81DAFFC227CFE03400C7943A /* OnDeleteExplanation.swift */; };
+		81DAFFC527CFE3A800C7943A /* UserDefaultsExplanation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81DAFFC427CFE3A800C7943A /* UserDefaultsExplanation.swift */; };
+		81DAFFC727CFE67900C7943A /* ArchivingObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81DAFFC627CFE67900C7943A /* ArchivingObjects.swift */; };
+		81DAFFC927CFEA1B00C7943A /* PropertyWrapperExplanation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81DAFFC827CFEA1B00C7943A /* PropertyWrapperExplanation.swift */; };
+		81DAFFCB27CFEE7C00C7943A /* ExpenseItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81DAFFCA27CFEE7C00C7943A /* ExpenseItem.swift */; };
+		81DAFFCD27CFEF2D00C7943A /* Expenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81DAFFCC27CFEF2D00C7943A /* Expenses.swift */; };
+		81DAFFCF27D0076B00C7943A /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81DAFFCE27D0076B00C7943A /* AddView.swift */; };
+		81DAFFD127D01DDF00C7943A /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81DAFFD027D01DDF00C7943A /* ItemRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +28,15 @@
 		8181906127CFCCA100B8FEB8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8181906327CFCCA100B8FEB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8181906627CFCCA100B8FEB8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		81DAFFC027CFCD7A00C7943A /* StateExplanation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateExplanation.swift; sourceTree = "<group>"; };
+		81DAFFC227CFE03400C7943A /* OnDeleteExplanation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnDeleteExplanation.swift; sourceTree = "<group>"; };
+		81DAFFC427CFE3A800C7943A /* UserDefaultsExplanation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsExplanation.swift; sourceTree = "<group>"; };
+		81DAFFC627CFE67900C7943A /* ArchivingObjects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchivingObjects.swift; sourceTree = "<group>"; };
+		81DAFFC827CFEA1B00C7943A /* PropertyWrapperExplanation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyWrapperExplanation.swift; sourceTree = "<group>"; };
+		81DAFFCA27CFEE7C00C7943A /* ExpenseItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseItem.swift; sourceTree = "<group>"; };
+		81DAFFCC27CFEF2D00C7943A /* Expenses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expenses.swift; sourceTree = "<group>"; };
+		81DAFFCE27D0076B00C7943A /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
+		81DAFFD027D01DDF00C7943A /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +70,12 @@
 			isa = PBXGroup;
 			children = (
 				8181905F27CFCCA100B8FEB8 /* iExpenseApp.swift */,
+				81DAFFCA27CFEE7C00C7943A /* ExpenseItem.swift */,
+				81DAFFCC27CFEF2D00C7943A /* Expenses.swift */,
 				8181906127CFCCA100B8FEB8 /* ContentView.swift */,
+				81DAFFD027D01DDF00C7943A /* ItemRow.swift */,
+				81DAFFCE27D0076B00C7943A /* AddView.swift */,
+				81DAFFBF27CFCD6500C7943A /* Explanations */,
 				8181906327CFCCA100B8FEB8 /* Assets.xcassets */,
 				8181906527CFCCA100B8FEB8 /* Preview Content */,
 			);
@@ -65,6 +88,18 @@
 				8181906627CFCCA100B8FEB8 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		81DAFFBF27CFCD6500C7943A /* Explanations */ = {
+			isa = PBXGroup;
+			children = (
+				81DAFFC027CFCD7A00C7943A /* StateExplanation.swift */,
+				81DAFFC227CFE03400C7943A /* OnDeleteExplanation.swift */,
+				81DAFFC427CFE3A800C7943A /* UserDefaultsExplanation.swift */,
+				81DAFFC627CFE67900C7943A /* ArchivingObjects.swift */,
+				81DAFFC827CFEA1B00C7943A /* PropertyWrapperExplanation.swift */,
+			);
+			path = Explanations;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +173,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				8181906227CFCCA100B8FEB8 /* ContentView.swift in Sources */,
+				81DAFFC527CFE3A800C7943A /* UserDefaultsExplanation.swift in Sources */,
+				81DAFFCF27D0076B00C7943A /* AddView.swift in Sources */,
+				81DAFFC727CFE67900C7943A /* ArchivingObjects.swift in Sources */,
+				81DAFFCB27CFEE7C00C7943A /* ExpenseItem.swift in Sources */,
 				8181906027CFCCA100B8FEB8 /* iExpenseApp.swift in Sources */,
+				81DAFFC927CFEA1B00C7943A /* PropertyWrapperExplanation.swift in Sources */,
+				81DAFFCD27CFEF2D00C7943A /* Expenses.swift in Sources */,
+				81DAFFD127D01DDF00C7943A /* ItemRow.swift in Sources */,
+				81DAFFC127CFCD7A00C7943A /* StateExplanation.swift in Sources */,
+				81DAFFC327CFE03400C7943A /* OnDeleteExplanation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +321,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -306,6 +351,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
