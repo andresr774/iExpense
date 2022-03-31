@@ -24,6 +24,9 @@ struct ItemRow: View {
                         item.amount < 100 ? .orange : .red
                 )
         }
+        .accessibilityElement()
+        .accessibilityLabel("\(item.name) \(item.amount, format: .currency(code: Locale.current.currencyCode ?? "USD"))")
+        .accessibilityHint(item.type)
     }
 }
 
